@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-windows-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "service-install": "node service.js",
+    "service-uninstall": "node -e \"require('./service').uninstall()\""
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "node-windows": "^0.1.14"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
